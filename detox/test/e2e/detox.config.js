@@ -121,6 +121,7 @@ const config = {
       headless: Boolean(process.env.CI),
       device: {
         type: 'iPhone 12 Pro Max',
+        os: 'iOS 16.2'
       },
     },
 
